@@ -6,9 +6,10 @@
  */
 int main(void)
 {
-	dig;
-	for (dig = '0'; dig <= '9'; dig++)
-		printf("%d", dig);
+	num;
+
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
 
 	printf("\n");
 
