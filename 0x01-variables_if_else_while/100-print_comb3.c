@@ -6,23 +6,22 @@
  */
 int main(void)
 {
-	int num1, num2;
-	/*ASCII code for 0*/
-	num1 = 48;
+	int la, le;
+	/* ASCII code for 0*/
+	la = 48;
 
-	while (num1 < 58)
+	while (la < 58)
 	{
-		num2 = 48;
-		while (num2 < 58)
+		le = 48;
+		while (le < 58)
 		{
-			putchar(num1);
-			putchar(num2);
-			num2++;
-			putchar(',');
-			putchar(' ');
+			putchar(la);
+			putchar(le);
+			le++;
+			putchar(44);
+			putchar(32);
 		}
-
-		num1++;
+		la++;
 	}
 	putchar('\n');
 	return (0);
