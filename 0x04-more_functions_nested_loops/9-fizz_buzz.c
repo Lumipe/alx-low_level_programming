@@ -3,9 +3,9 @@
 
 /**
  * main - print the number 1 to 100
- * print FIZZ for the multiples of three
- * print BUZZ for the multiples of five
- * and print FIZZBUZZ for the multiples of both three and five
+ * print Fizz for the multiples of three
+ * print Buzz for the multiples of five
+ * and print FizzBuzz for the multiples of both three and five
  * Return: Always 0
  */
 int main(void)
@@ -16,13 +16,13 @@ int main(void)
 	{
 		if (a % 3 == 0 && a % 5 != 0)
 		{
-			printf("FIZZ");
+			printf("Fizz");
 		} else if (a % 5 == 0 && a % 3 != 5)
 		{
-			printf("BUZZ");
+			printf("Buzz");
 		} else if (a % 3 == 0 && a % 5 == 5)
 		{
-			printf("FIZZBUZZ");
+			printf("FizzBuzz");
 		} else if (a == 1)
 		{
 			printf("%d", a);
