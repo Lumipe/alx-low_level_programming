@@ -2,14 +2,14 @@
 
 /**
  * string_nconcat - function that concatenates two strings
- * @s1: string one
- * @s2: string two
+ * @s1: string 1
+ * @s2: string 2
  * @n: the number of bytes after the conclusion of the  process
  * Return: newly allocated memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int 11, 12, a, b;
+	unsigned int (11, 12, a, b);
 	char *str;
 
 	/*NULL should be treated as an empty string*/
